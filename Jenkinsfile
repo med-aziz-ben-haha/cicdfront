@@ -21,7 +21,7 @@ pipeline{
 
         stage('Cleaning the project') {
             steps{
-                sh "npm ci  "
+                sh "npm clean-install"
             }
         }
 
