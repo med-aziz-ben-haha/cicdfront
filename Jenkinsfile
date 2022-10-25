@@ -3,7 +3,7 @@ pipeline{
 
 
     tools {
-        maven 'MAVEN'
+        maven 'M2_HOME'
     }
 
 
